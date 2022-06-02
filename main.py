@@ -33,17 +33,19 @@ def Miller(n,s):
       return False
   return True
 
-#print("Nùmeros primos de 4 cifras:")
+#print("Nùmeros primos de 3 cifras:")
 #for n in range(101, 998):
 #  if n%2 != 0:
 #    if Miller(n, 5):
 #      print(n,",", end = " ")
 
+#print("Nùmeros primos de 4 cifras:")
 #for n in range(1001, 9998):
 #  if n%2 != 0:
 #    if Miller(n, 8):
 #      print(n,",", end = " ")
 
+#print("Nùmeros primos de 5 cifras:")
 #for n in range(10001, 99998):
 #  if n%2 != 0:
 #    if Miller(n, 96):
@@ -63,11 +65,14 @@ def Randomgen(b):
     n = n+2
   return n
 
-#b=64
-#for i in range(2):
+#b=16
+#for i in range(10):
 #  print(Randomgen(b), end=" ")
 
-if Miller(10628234386966724609, 5):
-		print("es primo")
-else:
-		print("es compuesto")
+#b=32
+#for i in range(10):
+#  print(Randomgen(b), end=" ")
+
+#b=64
+#for i in range(10):
+#  print(Randomgen(b), end=" ")
